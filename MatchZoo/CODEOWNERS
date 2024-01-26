@@ -1,0 +1,49 @@
+# Watchers and contributors to MatchZoo repo directories/packages/files
+# Please see documentation of use of CODEOWNERS file at
+# https://help.github.com/articles/about-codeowners/ and
+# https://github.com/blog/2392-introducing-code-owners
+#
+# Anybody can add themselves or a team as additional watcher or contributor 
+# to get notified about changes in a specific package.
+# See https://help.github.com/articles/about-teams how to setup teams.
+
+#  Define individuals or teams that are responsible for code in a repository.
+
+# global owner.
+*       @faneshion
+
+# third-party & project configuration
+.coveragerc             @bwanglzu
+.gitignore      	    @faneshion
+.travis.yml     	    @bwanglzu
+CONTRIBUTING.MD 	    @bwanglzu
+Makefile        	    @uduse @bwanglzu
+README.md       	    @faneshion @pl8787
+readthedocs.yml 	    @wqh17101 @bwanglzu
+requirements.txt        @faneshion @pl8787
+setup.py                @faneshion @pl8787
+
+# artworks
+/artworks/              @faneshion
+
+# tutorials
+/tutorials/             @uduse @faneshion
+
+# docs
+/docs/                  @wqh17101 @bwanglzu
+
+# tests
+/tests/                 @faneshion @uduse @bwanglzu
+
+# matchzoo
+/matchzoo/engine/       @faneshion @bwanglzu @uduse @pl8787
+/matchzoo/auto/         @uduse @bwanglzu
+/matchzoo/models/       @faneshion @pl8787 @bwanglzu @uduse
+/matchzoo/preprocessor/ @uduse @faneshion @pl8787
+/matchzoo/tasks/        @uduse @bwanglzu
+/matchzoo/data_generator/   @faneshion @uduse @pl8787 
+/matchzoo/data_pack/    @faneshion @uduse 
+/matchzoo/metrics/      @faneshion  @pl8787 @uduse
+/matchzoo/losses/       @faneshion @pl8787 @bwanglzu
+/matchzoo/layers/       @uduse @yangliuy
+/matchzoo/*             @faneshion @uduse @bwanglzu
